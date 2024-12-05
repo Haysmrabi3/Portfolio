@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-color : #F60838 ;
+    --body-color : #F2F2FC  ; 
+    --second-color : #FFFFFF ; 
+    --text-color :  #302E4D; ; 
+    --span-color: #666565;
+    --info-color: #FDF9FF;
+    --black: black ;
+    --border: #e8dfec ;
+    --shadow : 0px 0px 10px 1px rgb(143, 143, 143);
+ }
+
+
+
+
+ [data-them='dark'] {
+   --body-color : #151515 ;
+   --text-color :  white; ; 
+   --info-color: #151515;
+   --black: white ;
+   --second-color : #151515 ; 
+   --border: black ;
+   --shadow : 0px 0px 10px 1px  rgb(41, 40, 40);
+ }
+
+
+
+ * {
+    padding: 0%;
+    margin: 0%;
+ }
+
+ ul li {
+    list-style: none;
+ }
+.container , section {
+   overflow: hidden;
+}
+
+
+
+
+/* Nav-bar start  */
+
+nav {
+    background-color: var(--info-color);
+    .navbar-toggler {
+      background-color: var(--main-color);
+      border: none;
+      span {
+         color: white !important;
+         border: none;
+         i {
+            font-size: 20px;
+            padding: 5px;
+         }
+      }
+    }
+
+    .active {
+        border-bottom: 2px solid var(--main-color) !important;
+        color: var(--black) !important;
+     }
+     .nav-link {
+        border-bottom: 2px solid transparent;
+        color: var(--span-color);
+        font-size: 20px;
+        font-weight: 500;
+        margin-inline: 5px;
+        cursor: pointer;
+     }
+     .nav-link:hover {
+        border-bottom: 2px solid var(--main-color) !important;
+        color: var(--black) !important;
+     }
+     
+     .cv  {
+        background-color: var(--main-color);
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        width: 180px;
+        height: 50px;
+        border-radius: 100vh 100vh ;
+        border: none;
+        a {
+         color: white;
+         text-decoration: none;
+        }
+     }
+     @media screen and (max-width:990px) {
+      .cv {
+         width: 150px;
+         height: 40px;
+         background-color: red !important;
+         margin-top: 5px;
+      }
+     }
+     .navbar-brand {
+      font-size: 30px;
+      font-weight: 700;
+      color: var(--main-color);
+      cursor: pointer;
+     }
+
+
+
+}
+
+.Lay {
+   position: fixed; 
+   top: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   z-index: 1000;
+}
+
+.DarkMood {
+   border: none;
+   background-color: transparent;
+   width: 40px;
+   i {
+      font-size: 25px;
+      margin: 4px 0px 0px 20px;
+   }
+   .sun {
+      color: var(--main-color);
+   }
+}
+
+
+
+/* Nav-bar end  */
+
+
+
+
+
+/* Head-info start  */
+
+#Home {
+   min-height: 100vh;
+   background-color: var(--body-color);
+   margin-top: 0;
+   display: flex;
+   align-items: center;
+   color: var(--text-color);
+   h2  {
+      font-weight: 700;
+      font-size: 32px;
+   }
+   h2 span {
+      color: var(--main-color);
+      font-family: "Sour Gummy", sans-serif;
+      color: var(--main-color);
+      
+   }
+   .typing {
+      margin-bottom: 30px;
+      display: flex;
+      font-size: 30px;
+      font-weight: 700;
+      span {
+         margin-right: 5px;
+      }
+      @media screen and (max-width:700px) {
+         span {
+            font-size: 25px;
+         }
+      }
+      @media screen and (max-width:370px) {
+         span {
+            font-size: 23px;
+         }
+      }
+   }
+   @media screen and (max-width:320px) {
+      .typing {
+         margin-bottom: 10px;
+         span {
+            font-size: 20px;
+            margin-top: 90px;
+         }
+      }
+
+   }
+   
+   p {
+      color: var(--span-color);
+      font-size: 19px;
+   }
+   ul {
+      display: flex;
+      justify-content: start;
+      padding: 0px;
+      margin-top: 20px;
+      i {
+         padding: 8px;
+         font-size: 20px;
+         cursor: pointer;
+         border-radius: 5px;
+         color: white;
+      }
+      .two {
+         background-color: #6e5494;
+         margin-inline: 20px;
+      }
+      .one {
+         background-color: #0e6bff;
+      }
+      .three {
+         background-color: #25d366;
+
+      }
+   }
+}
+
+
+
+
+
+
+/* Head-info end  */
+
+
+
+
+
+
+
+/* About end  */
+
+#About {
+   background-color: var(--second-color) !important;
+   padding-block: 80px;
+   color: var(--text-color);
+   h2 {
+      margin-bottom: 40px;
+      position: relative;
+      display: inline-block;
+      font-size: 40px;
+      font-weight: 700;
+   }
+   h2:after {
+      content: '';
+      position: absolute;
+      left: 9px;
+      bottom: -5px;
+      background-color: var(--main-color);
+      height: 4px;
+      width: 95px;
+   }
+   h2:before {
+      content: '';
+      position: absolute;
+      left: 9px;
+      bottom: -12px;
+      background-color: var(--main-color);
+      height: 4px;
+      width: 70px;
+   }
+   h3 {
+      font-weight: 700;
+      margin-top: 10px;
+   }
+   h3 span {
+      color: var(--main-color);
+      font-family: "Sour Gummy", sans-serif;
+   }
+   p {
+      color: var(--span-color);
+      font-weight: 500;
+   }
+
+   .About-info {
+      display: flex;
+      justify-content: space-between;
+
+      i {
+         color: var(--main-color);
+         font-size: 20px;
+         margin-right: 6px;
+         align-items: center;
+      }
+      p {
+         font-size: 20px;
+         color: var(--black);
+         font-weight: 700;
+      }
+      span {
+         font-size: 18px;
+         font-weight: 500;
+         color: var(--span-color);
+      }
+   }
+   
+   .Courses-info {
+      background-color: var(--info-color);
+      padding: 0px 0px 20px 40px;
+      position: relative;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.5s;
+      h4 {
+         font-size: 17px;
+         position: relative;
+         margin-top: 20px;
+      }
+      i {
+         color: var(--main-color);
+      }
+      h4::after {
+         content: '';
+         position: absolute;
+         left: -38px;
+         bottom: 2px;
+         background-color: var(--main-color);
+         height: 15px;
+         width: 15px;
+         border-radius: 50%;
+      }
+   }
+   .Courses-info::after {
+      content: '';
+      position: absolute;
+      left: 9px;
+      bottom: 10px;
+      background-color: var(--main-color);
+      height: 80%;
+      width: 1px;
+   }
+   .Courses-info:hover {
+      border: 1px solid var(--main-color);
+   }
+
+}
+
+
+/* About end  */
+
+
+
+
+
+
+
+
+
+
+/* Skills start  */
+#Skills {
+   background-color: var(--body-color);
+   padding-block: 80px;
+
+   h2 {
+      margin-bottom: 40px;
+      position: relative;
+      display: inline-block;
+      font-size: 40px;
+      font-weight: 700;
+      color: var(--black);
+   }
+   h2:after {
+      content: '';
+      position: absolute;
+      left: 1px;
+      bottom: -5px;
+      background-color: var(--main-color);
+      height: 4px;
+      width: 65px;
+   }
+   h2:before {
+      content: '';
+      position: absolute;
+      left: 1px;
+      bottom: -12px;
+      background-color: var(--main-color);
+      height: 4px;
+      width: 45px;
+   }
+   img {
+      width: 70px;
+      height: 70px;
+      transition: all 0.5s;
+   }
+   .skills-imge {
+      background-color: var(--info-color);
+      color: var(--black);
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      padding: 10px;
+      border: 1px solid transparent;
+      transition: all 0.5s;
+      cursor: pointer;
+      span {
+         font-size: 20px;
+         font-weight: 500;
+         transition: all 0.5s;
+
+      }
+   }
+   .skills-imge:hover {
+      border: 1px solid var(--main-color);
+      img {
+         rotate: -30deg;
+      }
+      span {
+         translate: 10px;
+      }
+   }
+}
+
+/* Skills end  */
+
+
+
+
+
+
+
+
+
+
+/* Service start  */
+#Services {
+   background-color: var(--second-color);
+   color: var(--text-color);
+   padding-block: 80px;
+
+   h2 {
+      margin-bottom: 40px;
+      position: relative;
+      display: inline-block;
+      font-size: 40px;
+      font-weight: 700;
+   }
+   h2:after {
+      content: '';
+      position: absolute;
+      left: 1px;
+      bottom: -5px;
+      background-color: var(--main-color);
+      height: 4px;
+      width: 65px;
+   }
+   h2:before {
+      content: '';
+      position: absolute;
+      left: 1px;
+      bottom: -12px;
+      background-color: var(--main-color);
+      height: 4px;
+      width: 45px;
+   }
+   .Service-info {
+      text-align: center;
+      background-color: var(--info-color);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px 20px;
+      cursor: pointer;
+      transition: all 0.5s;
+      margin-bottom: 5px;
+      .icon {
+         height: 80px;
+         margin-bottom: 20px;
+      }
+      i {
+         color: var(--main-color);
+         font-size: 40px;
+         border-radius: 50%;
+         transition: all 0.2s;
+         padding: 20px;
+         transition: all 0.3s;
+      }
+   }
+   .Service-info:hover {
+      box-shadow: 0px 0px 10px 1px rgb(156, 156, 156);
+      i {
+         font-size: 25px;
+         background-color: var(--main-color);
+         color: var(--second-color);
+         padding: 20px;
+      }
+   }
+
+
+}
+
+/* Service end  */
+
+
+
+
+
+/* Projects start  */
+#Projects {
+   background-color: var(--body-color);
+   color: var(--text-color);
+   padding-block: 80px;
+   h2 {
+      margin-bottom: 40px;
+      position: relative;
+      display: inline-block;
+      font-size: 40px;
+      font-weight: 700;
+   }
+   h2:after {
+      content: '';
+      position: absolute;
+      left: 1px;
+      bottom: -12px;
+      background-color: var(--main-color);
+      height: 4px;
+      width: 90px;
+   }
+   h2:before {
+      content: '';
+      position: absolute;
+      left: 1px;
+      bottom: -19px;
+      background-color: var(--main-color);
+      height: 4px;
+      width: 65px;
+   }
+   .Project {
+      overflow: hidden;
+      border-radius: 10px;
+      background-color: var(--body-color);
+      padding: 5px;
+      cursor: pointer;
+      transition: all 0.5s;
+      box-shadow: var(--shadow);
+      .projec-img {
+         height: 250px;
+         width: 300px;
+         overflow: hidden;
+         margin: auto;
+      }
+      .poject-text {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin: 15px 10px 0px 10px;
+         i {
+            margin-inline: 5px;
+            font-size: 18px;
+         }
+         .icons a {
+            color: var(--text-color);
+         }
+      }
+      h3 {
+         font-weight: 700;
+         font-size: 20px;
+      }
+
+   }
+   .skills {
+      display: flex;
+      justify-content: center;
+      padding: 0px;
+      margin: 10px 0px;
+      img {
+         height: 40px;
+         width: 40px;
+      }
+   }
+
+
+}
+
+.Project:hover {
+   translate: 0px -15px;
+}
+
+
+/* Projects end  */
+
+
+
+/* Contact start  */
+
+#Contacts {
+   background-color: var(--second-color);
+   color: var(--text-color);
+   padding-block: 80px;
+   h2 {
+      margin-bottom: 40px;
+      position: relative;
+      display: inline-block;
+      font-size: 40px;
+      font-weight: 700;
+   }
+   h2:after {
+      content: '';
+      position: absolute;
+      left: 1px;
+      bottom: -12px;
+      background-color: var(--main-color);
+      height: 4px;
+      width: 90px;
+   }
+   h2:before {
+      content: '';
+      position: absolute;
+      left: 1px;
+      bottom: -19px;
+      background-color: var(--main-color);
+      height: 4px;
+      width: 65px;
+   }
+   .Contact-text {
+      text-align: center;
+      h3 {
+         font-weight: 700;
+         color: var(--main-color);
+      }
+      h4 {
+         margin-block: 40px;
+         font-size: 20px;
+         font-weight: 700;
+      }
+   }
+   input , textarea {
+      background-color: var(--body-color) !important;
+      color: var(--black) !important;
+   }
+   input:focus ,textarea:focus {
+      border-color: var(--main-color);
+      box-shadow: 0 0 20px #302e4d26 ;
+   }
+   input::placeholder , textarea::placeholder{
+      color: var(--black) !important;
+      font-weight: 500;
+   }
+   button {
+      background-color: var(--main-color);
+      color: white;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 15px;
+      border-radius: 100vh 100vh;
+      width: 200px;
+      margin-top: 20px;
+   }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Contact end  */
+
+
+
+ 
