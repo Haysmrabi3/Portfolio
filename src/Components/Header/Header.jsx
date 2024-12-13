@@ -37,7 +37,7 @@ useEffect(()=>{
             <h2>Hello, My Name Is <span>Haitham</span></h2>
             <p>Highly skilled Front-End Developer with experience in designing, developing, and maintaining web applications using modern front-end frameworks.</p>
             <div className="social">
-              <h4>Find Me On </h4>
+              <h4>Find Me On :</h4>
               <ul>
                 <li><i className="fa-brands fa-linkedin one"></i></li>
                 <li><a target='_blank' href="https://github.com/Haysmrabi3"><i className="fa-brands fa-github two"></i></a></li>

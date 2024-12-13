@@ -4,13 +4,6 @@ import { Link } from 'react-scroll'
 
 
 
-
-
-
-
-
-
-
 export default function NavBar() {
 
 const nav = useRef(null)
@@ -74,7 +67,7 @@ const nav = useRef(null)
         </li>
         
       </ul>
-      <button  className='cv'><a download={'../../Assets/Message.webp'} href="">Download CV</a></button>
+      <button  className='cv'><a download target='_blank'  href='https://drive.google.com/file/d/1Nto0sZsDYfnI1e2c-VE3fY8hSYeec1mJ/view?usp=sharing'>Download CV</a></button>
       <button  className='DarkMood' onClick={toggleDarkMode}  >{isDark ? <i className="fa-regular moon fa-moon"></i>: <i className="fa-regular sun fa-sun"></i>}  </button>
            </div>
   </div>

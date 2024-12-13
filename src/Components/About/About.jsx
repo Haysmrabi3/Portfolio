@@ -25,7 +25,7 @@ export default function About() {
           <div className="" data-aos="fade-up"
                  data-aos-duration="1000">
           <h2>About Me</h2>
-          <h3>I`m Haitham Rabea <span>Front End Developer</span></h3>
+          <h3>I`m Haitham Rabea <span>Front End Developer.</span></h3>
           <p>I am a junior front-end developer with a strong foundation in web development. My expertise include JavaScript, React.js, HTML, CSS And Problem-solving skills, 
           I have a proven ability to deliver scalable web solutions and a passion for designing e-commerce websites, with a strong focus on UI/UX. I am committed to continuously enhancing my skills and staying updated with the latest technologies. My goal is to contribute to company growth and achieve impactful results.
           </p>
