@@ -41,7 +41,7 @@ useEffect(()=>{
               <ul>
                 <li><i className="fa-brands fa-linkedin one"></i></li>
                 <li><a target='_blank' href="https://github.com/Haysmrabi3"><i className="fa-brands fa-github two"></i></a></li>
-                <li><i className="fa-brands fa-whatsapp three"></i></li>
+                <li><a target='_blank' href="https://wa.me/+2001097521770?text=welcome"><i className="fa-brands fa-whatsapp three"></i></a></li>
               </ul>
             </div>
           </div>

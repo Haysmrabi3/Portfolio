@@ -62,7 +62,7 @@ export default function Contacts() {
     <div className="container">
       <h2>Contact</h2>
       <div className="Contact-text">
-        <h3>Have You Any Question?</h3>
+        <h3>Do You Have Any Question?</h3>
         <h4>I'm at your service</h4>
       </div>
         <form ref={form} onSubmit={sendEmail}>
