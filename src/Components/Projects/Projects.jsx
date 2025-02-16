@@ -79,7 +79,7 @@ export default function Projects() {
               <img src={Englsih} className='w-100'  alt="Poriject Imge" />
             </div>
             <div className="poject-text">
-            <h3>Food Recipes</h3>
+            <h3>English-track</h3>
             <div className="icons">
             <a target='_blank' href={`https://haysmrabi3.github.io/English-track/`}><i className="fa-regular fa-eye"></i></a>
             <a target='_blank' href={`https://github.com/Haysmrabi3/English-track`}><i className="fa-brands fa-github"></i></a>
