@@ -40,7 +40,7 @@ export default function Projects() {
             <div className="poject-text">
             <h3>Online Shop</h3>
             <div className="icons">
-            <a target='_blank' href={`https://haysmrabi3.github.io/Fresh-Cart/`}><i className="fa-regular fa-eye"></i></a>
+            <a target='_blank' href={`https://haysmrabi3.github.io/Fresh-cart/`}><i className="fa-regular fa-eye"></i></a>
             <a target='_blank' href={`https://github.com/Haysmrabi3/Fresh-Cart`}><i className="fa-brands fa-github"></i></a>
             </div>
             </div>
