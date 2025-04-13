@@ -40,8 +40,8 @@ useEffect(()=>{
               <h4>Find Me On :</h4>
               <ul>
                 <li><i className="fa-brands fa-linkedin one"></i></li>
-                <li><a target='_blank' href="https://github.com/Haysmrabi3"><i className="fa-brands fa-github two"></i></a></li>
-                <li><a target='_blank' href="https://wa.me/+2001097521770?text=welcome"><i className="fa-brands fa-whatsapp three"></i></a></li>
+                <li><a target='_blank' rel="noopener" href="https://github.com/Haysmrabi3"><i className="fa-brands fa-github two"></i></a></li>
+                <li><a target='_blank' rel="noopener" href="https://wa.me/+2001097521770?text=welcome"><i className="fa-brands fa-whatsapp three"></i></a></li>
               </ul>
             </div>
           </div>

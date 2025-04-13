@@ -37,21 +37,21 @@ export default function Projects() {
         <div className="col-md-4 ">
           <div className="Project mb-2 "  data-aos-delay='800' data-aos="fade-up" >
             <div className="projec-img ">
-              <img src={Ecommerce} className='w-100'  alt="Poriject Imge" />
+              <img src={Ecommerce} className='w-100'  alt="Poriject` pic" />
             </div>
             <div className="poject-text">
             <h3>Online Shop</h3>
             <div className="icons">
-            <a target='_blank' href={`https://haysmrabi3.github.io/Fresh-cart/`}><i className="fa-regular fa-eye"></i></a>
-            <a target='_blank' href={`https://github.com/Haysmrabi3/Fresh-Cart`}><i className="fa-brands fa-github"></i></a>
+            <a target='_blank' rel="noopener" href={`https://haysmrabi3.github.io/Fresh-cart/`}><i className="fa-regular fa-eye"></i></a>
+            <a target='_blank' rel="noopener" href={`https://github.com/Haysmrabi3/Fresh-Cart`}><i className="fa-brands fa-github"></i></a>
             </div>
             </div>
             <hr />
             <ul className='skills'>
-              <li><img src={ReactLogo} alt="skill image" /></li>
-              <li><img src={HTML} alt="skill image" /></li>
-              <li><img src={CSS} alt="skill image" /></li>
-              <li><img src={Bootstrap} alt="skill image" /></li>
+              <li><img src={ReactLogo} alt="skill icon" /></li>
+              <li><img src={HTML} alt="skill icon" /></li>
+              <li><img src={CSS} alt="skill icon" /></li>
+              <li><img src={Bootstrap} alt="skill icon" /></li>
             </ul>
           </div>
         </div>
@@ -59,21 +59,21 @@ export default function Projects() {
         <div className="col-md-4">
           <div className="Project mb-2"  data-aos="fade-up"  data-aos-delay='800'>
             <div className="projec-img ">
-              <img src={Yummy} className='w-100'  alt="Poriject Imge" />
+              <img src={Yummy} className='w-100'  alt="Poriject` pic" />
             </div>
             <div className="poject-text">
             <h3>Food Recipes</h3>
             <div className="icons">
-            <a target='_blank' href={`https://haysmrabi3.github.io/Yummy/`}><i className="fa-regular fa-eye"></i></a>
-            <a target='_blank' href={`https://github.com/Haysmrabi3/Yummy`}><i className="fa-brands fa-github"></i></a>
+            <a target='_blank' rel="noopener" href={`https://haysmrabi3.github.io/Yummy/`}><i className="fa-regular fa-eye"></i></a>
+            <a target='_blank' rel="noopener" href={`https://github.com/Haysmrabi3/Yummy`}><i className="fa-brands fa-github"></i></a>
             </div>
             </div>
             <hr />
             <ul className='skills'>
-              <li><img src={ReactLogo} alt="skill image" /></li>
-              <li><img src={HTML} alt="skill image" /></li>
-              <li><img src={CSS} alt="skill image" /></li>
-              <li><img src={Bootstrap} alt="skill image" /></li>
+              <li><img src={ReactLogo} alt="skill icon" /></li>
+              <li><img src={HTML} alt="skill icon" /></li>
+              <li><img src={CSS} alt="skill icon" /></li>
+              <li><img src={Bootstrap} alt="skill icon" /></li>
             </ul>
           </div>
         </div>
@@ -81,21 +81,21 @@ export default function Projects() {
         <div className="col-md-4">
           <div className="Project mb-2"  data-aos="fade-up"  data-aos-delay='800'>
             <div className="projec-img ">
-              <img src={GamesApp} className='w-100'  alt="Poriject Imge" />
+              <img src={GamesApp} className='w-100'  alt="Poriject` pic" />
             </div>
             <div className="poject-text">
             <h3>Games App</h3>
             <div className="icons">
-            <a target='_blank' href={`https://haysmrabi3.github.io/GamesApp/`}><i className="fa-regular fa-eye"></i></a>
-            <a target='_blank' href={`https://github.com/Haysmrabi3/GamesApp`}><i className="fa-brands fa-github"></i></a>
+            <a target='_blank' rel="noopener" href={`https://haysmrabi3.github.io/GamesApp/`}><i className="fa-regular fa-eye"></i></a>
+            <a target='_blank' rel="noopener" href={`https://github.com/Haysmrabi3/GamesApp`}><i className="fa-brands fa-github"></i></a>
             </div>
             </div>
             <hr />
             <ul className='skills'>
-              <li><img src={ReactLogo} alt="skill image" /></li>
-              <li><img src={HTML} alt="skill image" /></li>
-              <li><img src={CSS} alt="skill image" /></li>
-              <li><img src={Tailwind} alt="skill image" /></li>
+              <li><img src={ReactLogo} alt="skill icon" /></li>
+              <li><img src={HTML} alt="skill icon" /></li>
+              <li><img src={CSS} alt="skill icon" /></li>
+              <li><img src={Tailwind} alt="skill icon" /></li>
             </ul>
           </div>
         </div>
@@ -103,21 +103,21 @@ export default function Projects() {
         <div className="col-md-4">
           <div className="Project mb-2"  data-aos="fade-up"  data-aos-delay='800'>
             <div className="projec-img ">
-              <img src={Englsih} className='w-100'  alt="Poriject Imge" />
+              <img src={Englsih} className='w-100'  alt="Poriject` pic" />
             </div>
             <div className="poject-text">
             <h3>English-track</h3>
             <div className="icons">
-            <a target='_blank' href={`https://haysmrabi3.github.io/English-track/`}><i className="fa-regular fa-eye"></i></a>
-            <a target='_blank' href={`https://github.com/Haysmrabi3/English-track`}><i className="fa-brands fa-github"></i></a>
+            <a target='_blank' rel="noopener" href={`https://haysmrabi3.github.io/English-track/`}><i className="fa-regular fa-eye"></i></a>
+            <a target='_blank' rel="noopener" href={`https://github.com/Haysmrabi3/English-track`}><i className="fa-brands fa-github"></i></a>
             </div>
             </div>
             <hr />
             <ul className='skills'>
-              <li><img src={ReactLogo} alt="skill image" /></li>
-              <li><img src={HTML} alt="skill image" /></li>
-              <li><img src={CSS} alt="skill image" /></li>
-              <li><img src={Bootstrap} alt="skill image" /></li>
+              <li><img src={ReactLogo} alt="skill icon" /></li>
+              <li><img src={HTML} alt="skill icon" /></li>
+              <li><img src={CSS} alt="skill icon" /></li>
+              <li><img src={Bootstrap} alt="skill icon" /></li>
             </ul>
           </div>
         </div>
@@ -125,20 +125,20 @@ export default function Projects() {
         <div className="col-md-4">
           <div className="Project mb-2"  data-aos="fade-up"  data-aos-delay='800'>
             <div className="projec-img ">
-              <img src={Weather} className='w-100'  alt="Poriject Imge" />
+              <img src={Weather} className='w-100'  alt="Poriject` pic" />
             </div>
             <div className="poject-text">
             <h3>Weather App</h3>
             <div className="icons">
-            <a target='_blank' href={`https://haysmrabi3.github.io/Weather-App/`}><i className="fa-regular fa-eye"></i></a>
-            <a target='_blank' href={`https://github.com/Haysmrabi3/Weather-App`}><i className="fa-brands fa-github"></i></a>
+            <a target='_blank' rel="noopener" href={`https://haysmrabi3.github.io/Weather-App/`}><i className="fa-regular fa-eye"></i></a>
+            <a target='_blank' rel="noopener" href={`https://github.com/Haysmrabi3/Weather-App`}><i className="fa-brands fa-github"></i></a>
             </div>
             </div>
             <hr /> 
             <ul className='skills'>
-              <li><img src={HTML} alt="skill image" /></li>
-              <li><img src={CSS} alt="skill image" /></li>
-              <li><img src={Js} alt="skill image" /></li>
+              <li><img src={HTML} alt="skill icon" /></li>
+              <li><img src={CSS} alt="skill icon" /></li>
+              <li><img src={Js} alt="skill icon" /></li>
             </ul>
           </div>
         </div>
@@ -146,19 +146,19 @@ export default function Projects() {
         <div className="col-md-4">
           <div className="Project mb-2"  data-aos="fade-up"  data-aos-delay='800'>
             <div className="projec-img ">
-              <img src={Mealfy} className='w-100'  alt="Poriject Imge" />
+              <img src={Mealfy} className='w-100'  alt="Poriject` pic" />
             </div>
             <div className="poject-text">
             <h3>Mealfy</h3>
             <div className="icons">
-            <a target='_blank' href={`https://haysmrabi3.github.io/Mealfy/`}><i className="fa-regular fa-eye"></i></a>
-            <a target='_blank' href={`https://github.com/Haysmrabi3/Mealfy`}><i className="fa-brands fa-github"></i></a>
+            <a target='_blank' rel="noopener" href={`https://haysmrabi3.github.io/Mealfy/`}><i className="fa-regular fa-eye"></i></a>
+            <a target='_blank' rel="noopener" href={`https://github.com/Haysmrabi3/Mealfy`}><i className="fa-brands fa-github"></i></a>
             </div>
             </div>
             <hr /> 
             <ul className='skills'>
-              <li><img src={HTML} alt="skill image" /></li>
-              <li><img src={CSS} alt="skill image" /></li>
+              <li><img src={HTML} alt="skill icon" /></li>
+              <li><img src={CSS} alt="skill icon" /></li>
             </ul>
           </div>
         </div>
@@ -166,23 +166,23 @@ export default function Projects() {
         <div className="col-md-4">
           <div className="Project mb-2"  data-aos="fade-up"  data-aos-delay='800'>
             <div className="projec-img ">
-              <img src={Fokir} className='w-100'  alt="Poriject Imge" />
+              <img src={Fokir} className='w-100'  alt="Poriject` pic" />
             </div>
             <div className="poject-text">
             <h3>Fokir</h3>
             <div className="icons">
-            <a target='_blank' href={`https://haysmrabi3.github.io/Fokir/`}><i className="fa-regular fa-eye"></i></a>
-            <a target='_blank' href={`https://github.com/Haysmrabi3/Fokir`}><i className="fa-brands fa-github"></i></a>
+            <a target='_blank' rel="noopener" href={`https://haysmrabi3.github.io/Fokir/`}><i className="fa-regular fa-eye"></i></a>
+            <a target='_blank' rel="noopener" href={`https://github.com/Haysmrabi3/Fokir`}><i className="fa-brands fa-github"></i></a>
             </div>
             </div>
             <hr />
             <ul className='skills'>
-              <li><img src={HTML} alt="skill image" /></li>
-              <li><img src={CSS} alt="skill image" /></li>
+              <li><img src={HTML} alt="skill icon" /></li>
+              <li><img src={CSS} alt="skill icon" /></li>
             </ul>
           </div>
         </div>
-        
+
       </div>
     </div>
   </section>
