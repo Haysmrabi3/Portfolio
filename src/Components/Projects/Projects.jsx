@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Ecommerce from '../../Assets/Projects/E-commerce/Home.png'
 import Yummy from '../../Assets/Projects/Yummy/Home.png'
-import GamesApp from '../../Assets/Projects/GameApp/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f6465636175366676762f696d6167652f75706c6f61642f76313732393433363735362f67616d65735f6d38787933742e706e67.png'
+import GamesApp from '../../Assets/Projects/GameApp/gamePic.png'
 import Fokir from '../../Assets/Projects/Fokir/fokir.png'
 import Mealfy from '../../Assets/Projects/Mealfy/Mealfy.png'
 import Weather from '../../Assets/Projects/Weather/Weather.png'
